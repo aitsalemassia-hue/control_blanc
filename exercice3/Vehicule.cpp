@@ -91,7 +91,9 @@ int main() {
     	vehicules[i]->afficherDetails();
     }
 
-
+        for (int i = 0; i < 2; i++) {
+       delete vehicules[i];
+   }
 
     return 0;
 }
